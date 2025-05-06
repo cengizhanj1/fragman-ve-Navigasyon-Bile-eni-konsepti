@@ -19,7 +19,7 @@ class SayfaYFragment : Fragment(R.layout.fragment_sayfa_y) {
 
         _binding = FragmentSayfaYBinding.bind(view)
 
-        // Ana Sayfa'ya geri dönmek için buton
+
         binding.goToAnaSayfaButton.setOnClickListener {
             findNavController().navigate(R.id.action_sayfaYFragment_to_anaSayfaFragment)
         }

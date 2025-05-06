@@ -19,7 +19,7 @@ class SayfaAFragment : Fragment(R.layout.fragment_sayfa_a) {
 
         _binding = FragmentSayfaABinding.bind(view)
 
-        // Sayfa B'ye gitmek için buton
+
         binding.goToSayfaBButton.setOnClickListener {
             findNavController().navigate(R.id.action_sayfaAFragment_to_sayfaBFragment)
         }

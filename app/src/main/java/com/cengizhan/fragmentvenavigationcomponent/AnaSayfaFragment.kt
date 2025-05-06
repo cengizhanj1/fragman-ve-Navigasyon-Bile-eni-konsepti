@@ -14,7 +14,7 @@ class AnaSayfaFragment : Fragment(R.layout.fragment_ana_sayfa) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Butonlar için tıklama olaylarını ayarla
+
         val goToSayfaAButton = view.findViewById<Button>(R.id.goToSayfaAButton)
         val goToSayfaXButton = view.findViewById<Button>(R.id.goToSayfaXButton)
 
